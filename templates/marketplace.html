@@ -1,13 +1,21 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Chocolate Bar Ratings</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Visualizing Data with Leaflet</title>
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin="" />
+
+  <!-- Our CSS -->
+  <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
 
 <body>
   <nav class="navbar navbar-expand-lg">
@@ -15,7 +23,7 @@
       <div class="navbar-header">
         <a class="navbar-brand" href="/">Home</a>
       </div>
-        <ul class="nav navbar-nav navbar-right">
+        <ul class="nav navbar-nav navbar-left"> 
           <li><a href="/marketplace">Marketplace</a></li>
           <li><a href="/bean">Bean</a></li>
           <li><a href="/manufacturing">Manufacturing</a></li>
@@ -24,17 +32,6 @@
         </ul>
     </div>
 </nav>
-<br>
-<br>
-<br>
-<div class="container">
-    <div class="row">
-      <div class="col-md-12 jumbotron text-center">
-        <img src="https://cdn.shopify.com/s/files/1/0001/0103/t/5/assets/logo.png?v=18177701282721251772" alt="Chocolate Alchemy" width="1000" height="300">
-        <h1>Chocolate Bar Ratings Dashboard</h1>
-        <p>Use the interactive charts below to explore the dataset</p>
-      </div>
-    </div>
     <!-- Container 1 -->
     <div class="container">
       
