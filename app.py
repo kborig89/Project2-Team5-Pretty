@@ -43,7 +43,7 @@ cacao_table = cur.fetchall()
 @app.route("/")
 def index():
     """Return the homepage."""
-    return render_template("index.html")
+    return render_template("index2.html")
 
 @app.route("/manufacturing")
 def manufacturingMain():
